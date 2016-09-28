@@ -1,0 +1,30 @@
+﻿Build started 5/11/2015 11:59:51 PM.
+     1>Project "C:\Users\Lucas\documents\visual studio 2013\Projects\Assignment 5 CS2C\Assignment 5 CS2C\Assignment 5 CS2C.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "Assignment 5 CS2C.cpp"
+         Assignment 5 CS2C.cpp
+     1>c:\users\lucas\documents\visual studio 2013\projects\assignment 5 cs2c\assignment 5 cs2c\assignment 5 cs2c.cpp(20): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>c:\users\lucas\documents\visual studio 2013\projects\assignment 5 cs2c\assignment 5 cs2c\fhsplaytree.h(16): warning C4172: returning address of local variable or temporary
+                 c:\users\lucas\documents\visual studio 2013\projects\assignment 5 cs2c\assignment 5 cs2c\fhsplaytree.h(15) : while compiling class template member function 'const int &FHsplayTree<int>::showRoot(void)'
+                 c:\users\lucas\documents\visual studio 2013\projects\assignment 5 cs2c\assignment 5 cs2c\assignment 5 cs2c.cpp(27) : see reference to function template instantiation 'const int &FHsplayTree<int>::showRoot(void)' being compiled
+                 c:\users\lucas\documents\visual studio 2013\projects\assignment 5 cs2c\assignment 5 cs2c\assignment 5 cs2c.cpp(22) : see reference to class template instantiation 'FHsplayTree<int>' being compiled
+     1>c:\users\lucas\documents\visual studio 2013\projects\assignment 5 cs2c\assignment 5 cs2c\fhsplaytree.h(101): warning C4101: 'e' : unreferenced local variable
+                 c:\users\lucas\documents\visual studio 2013\projects\assignment 5 cs2c\assignment 5 cs2c\fhsplaytree.h(96) : while compiling class template member function 'bool FHsplayTree<int>::contains(const Comparable &)'
+                 with
+                 [
+                     Comparable=int
+                 ]
+                 c:\users\lucas\documents\visual studio 2013\projects\assignment 5 cs2c\assignment 5 cs2c\assignment 5 cs2c.cpp(82) : see reference to function template instantiation 'bool FHsplayTree<int>::contains(const Comparable &)' being compiled
+                 with
+                 [
+                     Comparable=int
+                 ]
+     1>c:\users\lucas\documents\visual studio 2013\projects\assignment 5 cs2c\assignment 5 cs2c\fhsplaytree.h(105): warning C4101: 'e' : unreferenced local variable
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Lucas\documents\visual studio 2013\Projects\Assignment 5 CS2C\Debug\Assignment 5 CS2C.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Lucas\documents\visual studio 2013\Projects\Assignment 5 CS2C\Debug\Assignment 5 CS2C.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Lucas\documents\visual studio 2013\Projects\Assignment 5 CS2C\Debug\Assignment 5 CS2C.lib" /MACHINE:X86 "Debug\Assignment 5 CS2C.obj"
+         Assignment 5 CS2C.vcxproj -> C:\Users\Lucas\documents\visual studio 2013\Projects\Assignment 5 CS2C\Debug\Assignment 5 CS2C.exe
+     1>Done Building Project "C:\Users\Lucas\documents\visual studio 2013\Projects\Assignment 5 CS2C\Assignment 5 CS2C\Assignment 5 CS2C.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.78
